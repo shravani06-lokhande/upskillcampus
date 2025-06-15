@@ -1,0 +1,27 @@
+.home, .login-form, .register-form {
+  padding: 2rem;
+  max-width: 400px;
+  margin: auto;
+  background: rgb(74, 5, 92);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input, select, button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+button {
+  background-color: #270972;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
